@@ -17,12 +17,12 @@ ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
 author=$(cat /etc/profil)
 DATE2=$(date -R | cut -d " " -f -5)
-Exp2=$(curl -sS https://raw.githubusercontent.com/anggrevps/permission/main/ip | grep $MYIP | awk '{print $3}')
+Exp2=$(curl -sS https://raw.githubusercontent.com/GermaOfc/permission/main/ip | grep $MYIP | awk '{print $3}')
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/anggrevps/permission/main/ip"
+data_ip="https://raw.githubusercontent.com/GermaOfc/permission/main/ip"
 checking_sc() {
 useexp=$(curl -sS $data_ip | grep $MYIP | awk '{print $3}')
 if [[ $date_list < $useexp ]]; then
@@ -413,7 +413,7 @@ menu
 function updatews(){
 cd
 rm -rf *
-wget https://raw.githubusercontent.com/anggrevps/autoscript-vip/main/m-update.sh
+wget https://raw.githubusercontent.com/GermaOfc/stt/main/m-update.sh
 clear
 chmod +x m-update.sh && ./m-update.sh
 }
