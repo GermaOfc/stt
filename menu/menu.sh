@@ -30,7 +30,7 @@ echo -ne
 else
 systemctl stop nginx
 echo -e "$COLOR1╭═════════════════════════════════════════════════╮${NC}"
-echo -e "$COLOR1│${NC}${COLBG1}          ${WH}• AUTOSCRIPT PREMIUM •                 ${NC}$COLOR1│ $NC"
+echo -e "$COLOR1│${NC}${COLBG1}          ${WH}  AUTOSCRIPT PREMIUM                   ${NC}$COLOR1│ $NC"
 echo -e "$COLOR1╰═════════════════════════════════════════════════╯${NC}"
 echo -e "$COLOR1╭═════════════════════════════════════════════════╮${NC}"
 echo -e "$COLOR1│            ${RED}PERMISSION DENIED !${NC}                  $COLOR1│"
@@ -296,21 +296,21 @@ echo -e " $COLOR1╭════════════════════
 echo -e " $COLOR1│${NC} ${COLBG1}               ${WH}          GERMA-XD                       ${NC} $COLOR1│ $N"
 echo -e " $COLOR1╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " $COLOR1╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " $COLOR1│$NC${WH} • OS VPS        ${COLOR1}: ${WH}$MODEL2${NC}"
-echo -e " $COLOR1│$NC${WH} • RAM VPS       ${COLOR1}: ${WH}$tram / $uram MB${NC}"
+echo -e " $COLOR1│$NC${WH} • OS            ${COLOR1}: ${WH}$MODEL2${NC}"
+echo -e " $COLOR1│$NC${WH} • RAM           ${COLOR1}: ${WH}$tram / $uram MB${NC}"
 echo -e " $COLOR1│$NC${WH} • DATE          ${COLOR1}: ${WH}$DATE2 WIB${NC}"
 echo -e " $COLOR1│$NC${WH} • UPTIME        ${COLOR1}: ${WH}$uphours $upminutes $uptimecek"
 echo -e " $COLOR1│$NC${WH} • ISP           ${COLOR1}: ${WH}$ISP${NC}"
 echo -e " $COLOR1│$NC${WH} • CITY          ${COLOR1}: ${WH}$CITY${NC}"
 echo -e " $COLOR1│$NC${WH} • IP VPS        ${COLOR1}: ${WH}$MYIP${NC}"
 echo -e " $COLOR1│$NC${WH} • DOMAIN        ${COLOR1}: ${WH}$(cat /etc/xray/domain)"
-echo -e " $COLOR1│$NC${WH} • NS DOMAIN     ${COLOR1}: ${WH}$(cat /etc/xray/dns)"
 echo -e " $COLOR1╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e "    $COLOR1═══════════════════════════════════════════════════════${NC}"
 echo -e "     ${WH} SSH WS : ${status_ws} ${WH} XRAY : ${status_xray} ${WH} NGINX : ${status_nginx} ${WH} DROPBEAR : ${status_beruangjatuh}$NC"
+echo -e "             ${WH} NOOBZVPNS : ${stat_noobz} ${WH} TROJAN-GO : ${stat_trgo} ${NC}"
 echo -e "    $COLOR1  ═══════════════════════════════════════════════════${NC}"
 echo -e " $COLOR1         ═════════════════════════════════════════${NC}"
-echo -e "             ${w}       SSH/OPENVPN/UDP  $w:$w $total_ssh${w}"
+echo -e "             ${w}       SSH/OVPN/UDP     $w:$w $total_ssh${w}"
 echo -e "             ${w}       VMESS/WS/GRPC    $w:$w $vmess${w}"
 echo -e "             ${w}       VLESS/WS/GRPC    $w:$w $vless${w}"  
 echo -e "             ${w}       TROJAN/WS/GRPC   $w:$w $trtls${w}"  
@@ -319,14 +319,14 @@ echo -e "             ${w}       TORJAN-GO        $w:$w $jumlah_trgo${w}"
 echo -e " $COLOR1            ════════════════════════════════════${NC}"
 echo -e " $COLOR1                    ════════════════════${NC}"
 echo -e " $COLOR1╭════════════════════════════════════════════════════════╮${NC}"
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}01${WH}]${NC} ${COLOR1}• ${WH}SSH-WS    ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}08${WH}]${NC} ${COLOR1}• ${WH}BOT PANEL  ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}"
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}02${WH}]${NC} ${COLOR1}• ${WH}VMESS     ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}09${WH}]${NC} ${COLOR1}• ${WH}BOT NOTIF  ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}"    
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}03${WH}]${NC} ${COLOR1}• ${WH}VLESS     ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}10${WH}]${NC} ${COLOR1}• ${WH}UPDATE     ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}"   
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}04${WH}]${NC} ${COLOR1}• ${WH}TROJAN    ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}11${WH}]${NC} ${COLOR1}• ${WH}SYSTEM     ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}" 
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}05${WH}]${NC} ${COLOR1}• ${WH}NOOBZVPNS ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}12${WH}]${NC} ${COLOR1}• ${WH}BACKUP     ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}" 
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}06${WH}]${NC} ${COLOR1}• ${WH}TROJAN-GO ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}13${WH}]${NC} ${COLOR1}• ${WH}REBOOT     ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}" 
-echo -e " $COLOR1│$NC ${WH}[${COLOR1}07${WH}]${NC} ${COLOR1}• ${WH}RUNNING   ${WH}[${COLOR1}Menu${WH}]   ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}14${WH}]${NC} ${COLOR1}• ${WH}RESTART    ${WH}[${COLOR1}Menu${WH}] $COLOR1│${NC}"
+echo -e " $COLOR1│$NC ${WH}[${COLOR1}01${WH}]${NC} ${COLOR1} ${WH}[${COLOR1}Menu${WH}]  ${WH}SSH        ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}05${WH}]${NC} ${COLOR1}  ${WH}[${COLOR1}Menu${WH}] ${WH}NOOBZVPN    $COLOR1│${NC}"
+echo -e " $COLOR1│$NC ${WH}[${COLOR1}02${WH}]${NC} ${COLOR1} ${WH}[${COLOR1}Menu${WH}]  ${WH}VMESS      ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}06${WH}]${NC} ${COLOR1}  ${WH}[${COLOR1}Menu${WH}] ${WH}TORJAN-GO   $COLOR1│${NC}"    
+echo -e " $COLOR1│$NC ${WH}[${COLOR1}03${WH}]${NC} ${COLOR1} ${WH}[${COLOR1}Menu${WH}]  ${WH}VLESS      ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}07${WH}]${NC} ${COLOR1}  ${WH}[${COLOR1}Menu${WH}] ${WH}UPDATE      $COLOR1│${NC}"   
+echo -e " $COLOR1│$NC ${WH}[${COLOR1}04${WH}]${NC} ${COLOR1} ${WH}[${COLOR1}Menu${WH}]  ${WH}TROJAN     ${NC} $COLOR1│${NC}  ${WH}[${COLOR1}08${WH}]${NC} ${COLOR1}  ${WH}[${COLOR1}Menu${WH}] ${WH}SYSTEM      $COLOR1│${NC}"
 echo -e " $COLOR1╰════════════════════════════════════════════════════════╯${NC}"
+echo -e "$COLOR1╭═════════════════════════════════════════════════════════╮${NC}"
+echo -e "$COLOR1│  ${WH}[${COLOR1}09${WH}]${NC} ${COLOR1}• ${WH}ADD IP ${WH}[${COLOR1}RESELLER ONLY${WH}] $NC"
+echo -e "$COLOR1╰═════════════════════════════════════════════════════════╯${NC}"
 echo -e "$COLOR1╭═════════════════════════════════════════════════════════╮${NC}"
 echo -e "$COLOR1│$NC  ${WH}Total    $COLOR1│${NC}     ${WH}Today       ${WH}Yesterday       ${WH}Month         ${NC}"
 echo -e "$COLOR1│$NC ${WH}Bantwidth $COLOR1│${NC}   ${WH}$today_tx $today_txv     ${WH}$yesterday_tx $yesterday_txv      ${WH}$month_tx $month_txv${NC}"
@@ -431,14 +431,9 @@ case $opt in
 04 | 4) clear ; m-trojan ;;
 05 | 5) clear ; m-noobz ;;
 06 | 6) clear ; m-trgo ;;
-07 | 7) clear ; running;;
-08 | 8) clear ; m-bot  ;;
-09 | 9) clear ; m-bot2 ;;
-10 | 10) clear ; updatews ;;
-11 | 11) clear ; m-system ;;
-12 | 12) clear ; m-backup;;
-13 | 13) clear ; reboot ;;
-14 | 14) clear ; restartservice ;;
+07 | 7) clear ; updatews;;
+08 | 8) clear ; m-system  ;;
+09 | 9) clear ; m-ip2 ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
 esac
